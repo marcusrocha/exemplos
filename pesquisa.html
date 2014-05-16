@@ -1,0 +1,33 @@
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(function () {
+$('#inputdapesquisa').bind('keyup', function () {
+var val = $(this).val().toLocaleLowerCase();
+
+$('.registro').hide();
+$('.registro').each(function(){
+var text = $(this).text().toLocaleLowerCase();
+if (text.indexOf(val) != -1){
+$(this).show();
+}
+});
+});
+});
+
+</script>
+
+<input id="inputdapesquisa">
+
+ 
+<li class="registro">teste</li>
+<li class="registro">teste2</li>
+<li class="registro">teste3</li>
+<li class="registro">teste33</li>
+<li class="registro">teste333</li>
+<li class="registro">teste444</li>
+<li class="registro">teste2</li>
+
+
+</head>
