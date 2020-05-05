@@ -7,6 +7,7 @@
             "email": "marcus.rocha90@gmail.com"
         }
     ],   
+    "minimum-stability": "dev-master",
     "require": {
         "php": ">=5.5.0"
     }   
