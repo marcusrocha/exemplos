@@ -1,0 +1,13 @@
+{
+    "name": "marcusrocha/exemplos",
+    "description": "SImples exemplo",
+    "authors": [
+        {
+            "name": "Marcus Rocha",
+            "email": "marcus.rocha90@gmail.com"
+        }
+    ],   
+    "require": {
+        "php": ">=5.5.0"
+    }   
+}
